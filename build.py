@@ -1662,7 +1662,7 @@ def main(args: list[str] | None = None, version: str | None = None):
                 font_config=font_config,
                 build_option=build_option,
             ),
-            build_option.output_ttf,
+            build_option.ttf_base_dir,
             target_styles,
         )
         build_option.is_nf_built = True
